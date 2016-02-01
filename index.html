@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#main{
+				width:1200px;
+				margin:0 auto;
+				margin-top:20px;
+				background:yellow;
+				border:1px red solid;
+				min-height:800px;
+			}
+			#box{
+				width:400px;
+				height:500px;
+				border:1px blue solid;
+				position:relative;
+				overflow: hidden;
+			}
+			#container{
+				position:absolute;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="main">
+			<div id="box">
+				<div id="container">
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+					<h1>hello world</h1>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="http://trp.autonavi.com/traffic/js/lib/jquery.min.js"></script>
+		<script type="text/javascript" src="http://trp.autonavi.com/traffic/js/lib/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src="./jquery.scroll.js"></script>
+		<script>
+			$(function(){
+				$("#box").scroll({
+					dom:"#container",
+					frontId:"frontID",
+					backId:"backId",
+					baseCss:{
+						
+					}
+				})
+			})
+		</script
+	</body>
+</html>
